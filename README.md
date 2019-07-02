@@ -1,3 +1,4 @@
+
 # PCANet_PyTorch
 This is a PyTorch implementation of PCANet. Details are described in [the original paper](https://arxiv.org/abs/1404.3606).  
 Unlike other implementations, the number of stages in PCANet can be set arbitrarily, rather than two. So the structure is more flexible. 
@@ -27,8 +28,20 @@ feature maps of an image in stage 0
 ![](https://github.com/JihaoLee/PCANet_PyTorch/blob/master/results/feature0_trainset0.7.png)  
 feature maps of an image in stage 1  
 ![](https://github.com/JihaoLee/PCANet_PyTorch/blob/master/results/feature1_trainset0.7.png)  
-**the accuracy rate in total testing data is 93.42%**
-  
+**the accuracy rate in total testing data is 93.42%**    
+
+use 100% of training data
+----------
+convolution kernel in stage 0  
+![](https://github.com/JihaoLee/PCANet_PyTorch/blob/master/results/kernel0_trainset1.0.png)  
+convolution kernel in stage 1  
+![](https://github.com/JihaoLee/PCANet_PyTorch/blob/master/results/kernel1_trainset1.0.png)  
+feature maps of an image in stage 0  
+![](https://github.com/JihaoLee/PCANet_PyTorch/blob/master/results/feature0_trainset1.0.png)  
+feature maps of an image in stage 1  
+![](https://github.com/JihaoLee/PCANet_PyTorch/blob/master/results/feature1_trainset1.0.png)  
+**the accuracy rate in total testing data is 93.48%**
+
 # Results on cifar10
 in progress
 
